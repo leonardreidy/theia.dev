@@ -1,0 +1,31 @@
+{
+  "name": "theia.dev",
+  "version": "0.0.1",
+  "description": "Baseline dependencies for getting started with Theia development",
+  "main": "index.js",
+  "repository": "git@github.com:leonardreidy/theia.dev.git",
+  "author": "Leonard M Reidy <leonard.reidy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "theia build",
+    "clean": "yarn cache clean"
+  },
+  "dependencies": {
+    "@theia/callhierarchy": "latest",
+    "@theia/file-search": "latest",
+    "@theia/git": "latest",
+    "@theia/markers": "latest",
+    "@theia/messages": "latest",
+    "@theia/mini-browser": "latest",
+    "@theia/navigator": "latest",
+    "@theia/outline-view": "latest",
+    "@theia/plugin-ext-vscode": "latest",
+    "@theia/preferences": "latest",
+    "@theia/preview": "latest",
+    "@theia/search-in-workspace": "latest",
+    "@theia/terminal": "latest"
+  },
+  "devDependencies": {
+    "@theia/cli": "latest"
+  }
+}
