@@ -1,0 +1,19 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/javascript-node",
+  "features": {
+      "ghcr.io/devcontainers/features/node:1": {
+        "version": "18.17.0"
+      }
+  },
+  "postCreateCommand": "npm install -g @devcontainers/cli",
+  "customizations": {
+      "vscode": {
+          "extensions": [
+            "dbaeumer.vscode-eslint",
+            "EditorConfig.EditorConfig",
+            "khan.two-monokai",
+            "mads-hartmann.bash-ide-vscode"
+          ]
+      }
+  }
+}
