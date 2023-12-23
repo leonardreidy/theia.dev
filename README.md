@@ -1,7 +1,6 @@
 ## README
 
-This repository defines a devcontainer for getting started with Theia development. 
-It satisfies the baseline requirements for taking the official Theia tutorial:
+This repository defines a devcontainer for getting started with Theia development. It satisfies the baseline requirements for taking the official Theia tutorial:
 
 **Build your own IDE/Tool**.
 
