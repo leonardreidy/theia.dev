@@ -7,8 +7,6 @@
 # https://github.com/microsoft/vscode-dev-containers/tree/v0.99.2/containers/typescript-node-12/.devcontainer/Dockerfile
 FROM mcr.microsoft.com/devcontainers/javascript-node
 
-# ** [Optional] Uncomment this section to install additional packages. **
-#
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
    && apt-get -y install --no-install-recommends libsecret-1-dev \
