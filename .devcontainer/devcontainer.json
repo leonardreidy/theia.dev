@@ -2,7 +2,8 @@
   "image": "mcr.microsoft.com/devcontainers/javascript-node",
   "features": {
       "ghcr.io/devcontainers/features/node:1": {
-        "version": "18.17.0"
+        "version": "18.17.0",
+        "nodeGypDependencies": true
       }
   },
   "postCreateCommand": "npm install -g npm@10.2.5 && npm install -g @devcontainers/cli",
