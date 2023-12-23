@@ -6,10 +6,6 @@
   "repository": "git@github.com:leonardreidy/theia.dev.git",
   "author": "Leonard M Reidy <leonard.reidy@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "build": "theia build",
-    "clean": "yarn cache clean"
-  },
   "dependencies": {
     "@theia/callhierarchy": "latest",
     "@theia/file-search": "latest",
